@@ -10,6 +10,9 @@ composer require venndev/vosaka-cli
 ```
 
 # Example
+
+<img src="https://github.com/vosaka-php/vosaka-cli/blob/main/preview.png">
+
 ```php
 <?php
 
