@@ -287,7 +287,7 @@ class App
     private function error(string $message): Generator
     {
         $output = new Output();
-        yield from $output->error($message);
+        yield from $output->error($message)->unwrap();
         yield from $this->help()->unwrap();
         exit(1);
     }
