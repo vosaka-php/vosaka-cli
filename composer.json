@@ -1,0 +1,20 @@
+{
+    "name": "venndev/vosaka-cli",  
+    "description": "A library for creating command line interfaces in PHP, built on top of the V-Osaka framework.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "vosaka\\cli\\": "src/vosaka/cli"
+        }
+    },
+    "authors": [
+        {
+            "name": "VennV",
+            "email": "hyplex9009@gmail.com"
+        }
+    ],
+    "require": {
+        "venndev/v-osaka": "^1.7"
+    }
+}
